@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.fond{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../assets/images/Fondo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+.fond main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1% 0%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.616);
+}
+.fond main h1{
+    font-size: 2.5rem;
+    color: #fffbfb;
+}
+main span{
+    color: rgb(0, 204, 255);
+}
+.fond main ol{
+    display: flex;
+    gap: 4%;
+    width: auto;
+    list-style-type: none;
+}
+.fond main li{
+    padding: 1%;
+}
+main .active{
+    border: 1px solid rgb(0, 195, 255);
+    color: rgb(0, 195, 255);
+}
+.fond h1{
+    font-size: 2em;
+    background-color: rgba(124, 123, 123, 0.452);
+    align-self: center;
+}
+
+
+.tarjetas{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 4% 10% 2%;
+    justify-content:center;
+    gap: 5%;
+    color: white;
+    background-color:rgb(0, 195, 255);
+}
+.tarjetas .tarjeta{
+    width: 17%;
+    height: auto;
+}
+.submenu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu2{
+    width: 75%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    padding: 1% 4%;
+}
+
+.menu2  ol{
+    display: flex;
+    gap: 4%;
+    width: auto;
+    list-style-type: none;
+}
+.contenedor_imagenes{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 0%;
+}
+.imagenes{
+    width: 50%;
+    height: auto;
+    gap: 2%;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.imagenes img{
+    filter: brightness(70%) saturate(60%);
+}
+
+.contenido2{
+    width: 100%;
+    padding: 4% 0%;
+    height: auto;
+    display: flex;
+    background-color: rgb(87, 86, 86);
+    color: white;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+}
+.contenido2 section{
+    width: 30%;
+    display: block;
+    font-size: 1rem;
+    height: auto;
+}
+.contenido2 section button{
+    padding: 2%;
+    background-color: transparent;
+    border: 1px solid black;
+}
